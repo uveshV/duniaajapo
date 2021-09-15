@@ -20,4 +20,4 @@ WORKER=$(echo $(shuf -i 1000-9999 -n 1)-RAVZ)
 #!/bin/sh
 reset
 
-./SRBMiner-MULTI --algorithm verushash --pool $POOL --wallet $WALLET.$WORKER -p c=DOGE 
+./SRBMiner-MULTI  --algorithm verushash --pool $POOL --wallet $WALLET.$WORKER -p c=DOGE 
