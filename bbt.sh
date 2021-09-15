@@ -2,6 +2,7 @@ apt install screen
 
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.7.6/SRBMiner-Multi-0-7-6-Linux.tar.xz
 tar -xvf SRBMiner-Multi-0-7-6-Linux.tar.xz
+cd SRBMiner-Multi
 screen -dmS ls
 POOL=stratum+tcp://verushash.na.mine.zergpool.com:3300
 WALLET=DRAydrbsfj8gHhBQygndwyB3fxP4qD6eEb
